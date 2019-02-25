@@ -1,0 +1,20 @@
+body {
+      color: black;
+      font-family: arial;
+      margin: 0px;
+ }
+
+body {
+  background-image: url("https://www.google.co.uk/imgres?imgurl=https%3A%2F%2Fcdn.images.express.co.uk%2Fimg%2Fdynamic%2F151%2F590x%2Fearth-1-795169.jpg&imgrefurl=https%3A%2F%2Fwww.express.co.uk%2Fnews%2Fscience%2F795169%2FNASA-stunning-view-of-Earth-Saturn-Cassini&docid=bTgDO_pIiSccbM&tbnid=74-yIx0fCblICM%3A&vet=10ahUKEwilxaDPt9fgAhWj2-AKHV6jCLEQMwioASgwMDA..i&w=590&h=350&bih=538&biw=1200&q=pictures%20of%20earth&ved=0ahUKEwilxaDPt9fgAhWj2-AKHV6jCLEQMwioASgwMDA&iact=mrc&uact=8");
+}
+
+h1, h2 {
+  text-align:center;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h2 {font-size: 4em
+}

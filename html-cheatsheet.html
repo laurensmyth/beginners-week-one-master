@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cheatsheet</title>
+
+</head>
+<body>
+  <h1>Things I've Learnt So Far</h1>
+  <h2>Headings and Paragraphs</h2>
+
+  <p> We make headings using heading tags, from h1 down to h6, decreasing in size.
+     Generally h1 is for page titles and h4-h6 are rarely required.
+     Text not in a heading is contained in a paragraph tag.</p>
+
+  <p> To start a new paragraph, start a new paragraph tag, this automatically separates your text.</p>
+  <p><i>We can also write text in italics</i></p>
+  <h2>Blank Lines, Void Tags and Comments</h2>
+
+  <p> We can insert extra blank lines using the br tag, known as the void tag. Note this tag doessn't require a closing tag, only the opening one. Remember to close your paragraph before the break tag and to start a new one after</p>
+
+  <br>
+
+  <p>We can also insert comments. These will show up in the code but not the browser.</p>
+
+  <!this is a comment/>
+
+  <h2>List Types</h2>
+  <p> There are two types of lists, ordered which numbers your points and unordered which displays as bullet points. We creat these using the ol and ul tags.</p>
+
+  <p>Favourite Foods</p>
+
+  <ol>
+    <li>Pizza</li>
+    <li>Brownies</li>
+    <li>Strawberries</li>
+  </ol>
+
+  <p>Favourite Foods</p>
+
+  <ul>
+     <li>Pizza</li>
+     <li>Brownies</li>
+     <li>Strawberries</li>
+  </ul>
+
+  <p> Both list types require opening and closing tags. Remember to indent your code for each item in your list and to place each item in a separate li tag.</p>
+
+  <h2>Links</h2>
+  <p> Links look like this <a href="https://www.codefirstgirls.org.uk">code first girls</a> Where we specified where the link is pointing by href in quotation marks and we have written what we wish to our link to appear as after closing quotations but before closing the tag.</p>
+
+   <h2>Images</h2>
+   <p>Images are similar to links in that we identify their location with the src property as follows</p>
+   <img src=".duck.jpg" alt="duck picture" width"200px">
+
+   <p>The alt feature is used to provide a desciption incase the image doesn't load or to assist users that are partially sighted. We allow indicate picture size using the width feature </p>
+   <p>Note a closing tag isn't required here</p>
+
+
+   <h2>Tables</h2>
+
+   <p>Tables are used for displaying data</p>
+   <table class="table">
+     <tr>
+       <th>Name<th/>
+       <th>Age</th>
+       <th>Degree</th>
+     </tr>
+    <tr>
+      <td>Lauren</td>
+      <td>20</td>
+      <td>Maths</td>
+    </tr>
+    <tr>
+      <td>Emily</td>
+      <td>21</td>
+      <td>Geography and Geology</td>
+    </tr>
+   </table>
+
+    <p> Tables require an opening and closing tag. For each row we open a new tag and ident what we want to appear in each coloum separately, using th for the row of headings and td for rows of data.</p>
+
+</body>
